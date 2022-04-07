@@ -1,4 +1,12 @@
 {
+  "name": "db-virtual-noticeboard",
+  "version": "1.0.0",
+  "description": "we will build a virtual noticeboard",
+  "main": "server.js",
+  "type":"module",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
     "prettier": "^2.4.1"
