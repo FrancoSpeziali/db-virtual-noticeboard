@@ -111,6 +111,7 @@ For this task you will create an endpoint which will allow the user to add a new
 
 1. Inside your `/notices` route, create an **endpoint**
 2. The endpoint will receive a JSON object from the client. Here is an example of a JSON object you could receive:
+
 ```json
 {
   "text": "Don't use the toilet, it's blocked yo! Someone call a plumber",
@@ -118,6 +119,7 @@ For this task you will create an endpoint which will allow the user to add a new
   "date": 1628972562000
 }
 ```
+
 3. Read the JSON object from the `request.body` property, and store that information into the "Notice" collection
 4. The endpoint must respond to the path `/new`
 5. The endpoint must only respond to **POST** requests
